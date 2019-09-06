@@ -3,22 +3,33 @@ void setup() {
 }
 
 class Rectangle {
-    float x1, x2, y1, y2;
+    float x1, x2, y1, y2, w, h;
+    float r, g, b;
     Rectangle(float[] upperLeft, float[] bottomRight) {
         x1 = upperLeft[0];
         y1 = upperLeft[1];
         x2 = bottomRight[0];
         y2 = bottomRight[1];
+
+        w = x2 - x1;
+        h = y2 - y1;
+
+        r = (float) Math.random() * 255;
+        g = (float) Math.random() * 255;
+        b = (float) Math.random() * 255;
     }
 
     void draw() {
-        fill(204, 102, 0);
+        fill(r, g, b);
         rect(x1, y1, x2 - x1, y2 - y1);
+
+        fill(0);
+        text(Math.abs(w) + " x " + Math.abs(h), x1 + w / 2 - 40, y1 + h / 2);
     }
 
-    void print(int index) {
-        s = ("Region %d: %f x %f" % (index + 1, x2 - x1, y2 - y1));
-        println(s);
+    void print(int i) {
+        int regionNumber = i + 1;
+        println("Region " + regionNumber + ": " + Math.abs(w) + " x " + Math.abs(h));
     }
 }
 
@@ -29,7 +40,7 @@ float[] rectUpperLeft = {0, 0};
 float[] rectBottomRight = {0, 0};
 
 void draw() {
-    background(150);
+    background(100);
     fill(255);
     text(pmouseX + " : " + pmouseY, pmouseX - 10, pmouseY + 10);
     for (int i = 0; i < screenRegions.size(); i++) {
@@ -45,6 +56,8 @@ void draw() {
 void keyPressed() {
     if (key == 'd') {
         screenRegions.remove(screenRegions.size() - 1);
+    } else if (key == 'c') {
+        screenRegions = new ArrayList<Rectangle>();
     } else if (key == 'p') {
         for (int i = 0; i < screenRegions.size(); i++) {
             screenRegions.get(i).print(i);
