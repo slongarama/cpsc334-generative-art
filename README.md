@@ -7,7 +7,7 @@ To create a mapping from the pixels on our computer screens to the physical LED 
 ### Mapping Screen to Physical Space
 ![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/map-screen/screen-layout.png)
 
-This image shows...
+This image shows 
 
 ### Semi-automated Mapping Discovery
 
