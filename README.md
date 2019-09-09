@@ -5,7 +5,7 @@ Team: Sabrina Long, Xavier Ruiz, Alexi Christakis, Grace Cheung
 To create a mapping from the pixels on our computer screens to the physical LED display in Becton Cafe, we created a Processing program that...
 
 ### Mapping Screen to Physical Space
-![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/map-screen/screen-layout.png)
+![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/screendiagram.png)
 
 This image shows 
 
