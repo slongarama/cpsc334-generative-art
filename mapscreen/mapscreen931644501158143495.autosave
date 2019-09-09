@@ -92,6 +92,7 @@ void keyPressed() {
         
     // generate map for becton cafe screen layout
     } else if (key == 'g') {
+      bectonScreens.clear();
       for (int j = 0; j < lines.length; j++) {
         String[] coords = lines[j].split(", ", 4);
         
@@ -102,6 +103,7 @@ void keyPressed() {
         
         bectonScreens.add(new Rectangle(rectUpperLeft, rectBottomRight));
       }
+      printArray(bectonScreens);
     }
 }
 
