@@ -8,6 +8,8 @@ To create a mapping from the pixels on our computer screens to the physical LED 
 
 ![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/test/screen-layout.png)
 
+This image shows...
+
 ### Semi-automated Mapping Discovery
 
 Controls:
