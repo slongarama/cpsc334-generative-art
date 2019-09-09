@@ -12,7 +12,8 @@ This image shows...
 ### Semi-automated Mapping Discovery
 
 Controls:
-* P: Print out coordinates for all rectangles drawn by the user
-* D: Delete most recently drawn rectangle
-* A: Displayed colored boxes on the computer screen that correspond to colored wall boxes in Becton Center
+* P: Prints out coordinates for all rectangles drawn by the user
+* D: Deletes most recently drawn rectangle
+* G: Maps to all the panels in specifically Becton Cafe
+* C: Clears all rectangles on the screen
 
