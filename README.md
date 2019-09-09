@@ -9,6 +9,8 @@ To create a mapping from the pixels on our computer screens to the physical LED 
 
 In the image above, the lime green 92.0 x 36.0 rectangle on the 8-Panel wall represents **two** LED displays. These displays are directly adjacent to each other and have been represented by a single rectangle for simplicity. 
 
+![Display layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/displaydiagram.png)
+
 ### Semi-automated Mapping Discovery
 
 Controls:
