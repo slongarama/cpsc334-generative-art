@@ -7,7 +7,7 @@ To create a mapping from the pixels on our computer screens to the physical LED 
 ### Mapping Screen to Physical Space
 ![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/screendiagram.png)
 
-This image shows...
+In the image above, the lime green 92.0 x 36.0 rectangle on the 8-Panel wall represents **two** LED displays. These displays are directly adjacent to each other and have been represented by a single rectangle for simplicity. 
 
 ### Semi-automated Mapping Discovery
 
