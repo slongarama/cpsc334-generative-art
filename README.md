@@ -1,11 +1,10 @@
 # CPSC334 Module 1 - Generative Art
-Team: Sabrina Long, Xavier Ruiz, Alexi Christakis, Grace Cheung
+Artist: Sabrina Long
 
-### Approach
-To create a mapping from the pixels on our computer screens to the physical LED display in Becton Cafe, we created a Processing program that...
+## Concept
 
-### Mapping Screen to Physical Space
 
+<<<<<<< HEAD
 ![Screen layout](https://github.com/slongarama/cpsc334-generative-art/blob/master/test/screen-layout.png)
 
 This image shows...
@@ -16,3 +15,5 @@ Controls:
 * P: Print out coordinates for all rectangles drawn by the user
 * D: Delete most recently drawn rectangle
 * A: Displayed colored boxes on the computer screen that correspond to colored wall boxes in Becton Center
+=======
+>>>>>>> 5c3a36940d3104eb70e396b2a8422d293604f52f
